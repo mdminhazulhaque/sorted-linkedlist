@@ -32,6 +32,6 @@ ll3.push_front(4);
 ll3.push_front(5);
 ll3.push_front(6);
 
-ll3.pop_at(6); // Doesn't work! F%@k!
+ll3.pop_at(6); // Works!
 cout << ll3 << "\n";
 ```
