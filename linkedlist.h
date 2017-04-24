@@ -97,7 +97,7 @@ public:
         }
     }
 
-    void insert_sorted(const Data &d)
+    void push_sorted(const Data &d)
     {
         if(head == NULL)
         {
@@ -172,6 +172,14 @@ public:
         {
             return;
         }
+        else if(front() == d)
+        {
+            pop_front();
+        }
+        else if(back() == d)
+        {
+            pop_back();
+        }
         else
         {
             Ptr *curr = head;
@@ -182,9 +190,11 @@ public:
                 if(curr->data == d)
                     break;
                 prev = curr;
+                curr = curr->next;
             }
 
             prev->next = curr->next;
+
             delete curr;
         }
     }
