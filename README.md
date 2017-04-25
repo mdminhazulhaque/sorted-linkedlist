@@ -1,6 +1,6 @@
 # Linked List
 
-*** Tested with Valgrind, no memory leak ***
+> Tested with Valgrind, no memory leak
 
 ```
 linkedlist<int> ll1;
