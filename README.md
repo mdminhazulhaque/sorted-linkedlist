@@ -1,5 +1,7 @@
 # Linked List
 
+*** Tested with Valgrind, no memory leak ***
+
 ```
 linkedlist<int> ll1;
 ll1.push_back(42);  // LL = [42]
