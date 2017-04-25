@@ -1,8 +1,8 @@
 # Linked List
 
-### Tested with Valgrind, no memory leak
+### [Tested with Valgrind, no memory leak]
 
-```
+```cpp
 linkedlist<int> ll1;
 ll1.push_back(42);  // LL = [42]
 ll1.push_back(7);   // LL = [42 7]
